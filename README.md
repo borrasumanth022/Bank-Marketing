@@ -1,6 +1,6 @@
-# 📊 Bank Marketing Classification – Comparing Machine Learning Models
+# Bank Marketing Classification – Comparing Machine Learning Models
 
-## 🧠 Project Overview
+## Project Overview
 This project applies machine learning techniques to the **Bank Marketing Dataset** from the UCI Machine Learning Repository.  
 The objective is to predict whether a client will subscribe to a term deposit after being contacted by a marketing campaign.
 
@@ -15,7 +15,7 @@ Additional experiments explored **hyperparameter tuning**, **class imbalance han
 
 ---
 
-## 📂 Files
+## Files
 | File | Description |
 |------|--------------|
 | `prompt_III.ipynb` | Main Jupyter Notebook containing all 11 problems from the assignment, including EDA, model building, tuning, and evaluation. |
@@ -25,7 +25,7 @@ Additional experiments explored **hyperparameter tuning**, **class imbalance han
 
 ---
 
-## ⚙️ Technical Details
+## Technical Details
 - **Language:** Python (Jupyter Notebook)
 - **Libraries:** pandas, numpy, matplotlib, seaborn, scikit-learn, imbalanced-learn  
 - **Environment:** Python 3.10+  
@@ -33,7 +33,7 @@ Additional experiments explored **hyperparameter tuning**, **class imbalance han
 
 ---
 
-## 📈 Models Compared
+## Models Compared
 
 | Model | Train Accuracy | Test Accuracy | F1 (positive class) | ROC-AUC |
 |-------|----------------|----------------|--------------------|----------|
@@ -45,7 +45,7 @@ Additional experiments explored **hyperparameter tuning**, **class imbalance han
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 - The dataset is **imbalanced** (~90% “no” vs 10% “yes” responses).  
 - **Logistic Regression** achieved the highest accuracy and generalization.  
 - **Random Forest (tuned)** and **balanced Logistic Regression** improved **F1** and **recall** for the minority (positive) class.  
@@ -54,7 +54,7 @@ Additional experiments explored **hyperparameter tuning**, **class imbalance han
 
 ---
 
-## 🎯 Business Impact
+## Business Impact
 By identifying clients most likely to subscribe to term deposits, the model enables:
 - More efficient targeting for future campaigns  
 - Reduction in unnecessary calls  
@@ -62,15 +62,10 @@ By identifying clients most likely to subscribe to term deposits, the model enab
 
 ---
 
-## 🚀 Next Steps
+## Next Steps
 1. Add **ensemble models** (XGBoost / Gradient Boosting) for potentially higher F1/ROC-AUC.
 2. Implement **cost-sensitive thresholding** to balance call cost vs. conversion probability.
 3. Deploy as a simple API or Streamlit dashboard for campaign managers.
 
 ---
-
-## 👩‍💻 Author
-**[Your Name]**  
-Machine Learning Capstone – Assignment 17.1  
-*(Bank Marketing Classification – CRISP-DM Implementation)*  
 
