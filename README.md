@@ -19,7 +19,7 @@ Additional exploration included **Random Forest**, **hyperparameter tuning**, an
 ## Files
 | File | Description |
 |------|--------------|
-| `prompt_III.ipynb` | Main Jupyter Notebook (Problems 1–11), including EDA, model building, tuning, and evaluation |
+| `Bank_Marketing_Analysis.ipynb` | Main Jupyter Notebook (Problems 1–11), including EDA, model building, tuning, and evaluation |
 | `bank-additional-full.csv` | Dataset from UCI Machine Learning Repository |
 | `CRISP-DM-BANK.pdf` | Reference paper describing dataset and methodology |
 | `README.md` | Project summary and documentation (this file) |
